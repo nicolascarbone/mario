@@ -14,6 +14,7 @@ class Game(object):
         self.screen.initial_screen()
         while not self.done:
             self.events()
+            # pg.display.update()
 
     def events(self):
         for event in pg.event.get():
