@@ -11,7 +11,7 @@ class Game(object):
         self.done = False
 
     def start_game(self):
-        self.screen.initial_screen()
+        self.screen.main_menu()
         while not self.done:
             self.events()
             # pg.display.update()
